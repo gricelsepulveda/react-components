@@ -1,0 +1,46 @@
+{
+  "name": "react-components",
+  "version": "1.0.0",
+  "description": "Agnostic and fully customizable components based on React Library",
+  "main": "index.js",
+  "repository": "git@github.com:gricelsepulveda/react-components.git",
+  "author": "hello@gricel.dev",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-router-dom": "^5.1.6",
+    "@types/webpack-env": "^1.15.0",
+    "autoprefixer": "^9.7.3",
+    "awesome-typescript-loader": "^5.2.1",
+    "cross-env": "^6.0.3",
+    "css-loader": "^3.4.1",
+    "file-loader": "^5.0.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-scss": "^2.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sass-loader": "^8.0.0",
+    "react-router-dom": "^5.2.0",
+    "react-router": "^5.2.0",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^1.1.2",
+    "typescript": "^3.7.4",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack-dev-server --hot --config webpack.config.js",
+    "build": "webpack --config ./webpack.config.js"
+  },
+  "dependencies": {
+    "http-server": "^0.12.1",
+    "react-router-dom": "^5.2.0"
+  }
+}
